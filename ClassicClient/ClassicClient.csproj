@@ -22,4 +22,8 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\ClassicLib.Shared\ClassicLib.Shared.csproj" />
+    </ItemGroup>
+
 </Project>

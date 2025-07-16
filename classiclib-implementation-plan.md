@@ -15,8 +15,8 @@ Port the ClassicLib crash log analysis functionality from Python to a C# client-
 ## Phase 1: Core Data Models & YAML Parser
 
 ### 1.1 Shared Data Models
-- [ ] Create shared library project `ClassicLib.Shared`
-- [ ] Define core models:
+- [x] Create shared library project `ClassicLib.Shared`
+- [x] Define core models:
   ```csharp
   public class CrashLog {
       public string FileName { get; set; }
@@ -36,8 +36,8 @@ Port the ClassicLib crash log analysis functionality from Python to a C# client-
   ```
 
 ### 1.2 YAML Configuration System
-- [ ] Add YamlDotNet NuGet package
-- [ ] Create YAML models matching Python structure:
+- [x] Add YamlDotNet NuGet package
+- [x] Create YAML models matching Python structure:
   ```csharp
   public class ClassicYamlConfig {
       public GameInfo Game_Info { get; set; }
@@ -45,8 +45,8 @@ Port the ClassicLib crash log analysis functionality from Python to a C# client-
       public Dictionary<string, ModInfo> Mods_Core { get; set; }
   }
   ```
-- [ ] Implement YAML loader service
-- [ ] Add unit tests for YAML parsing
+- [x] Implement YAML loader service
+- [x] Add unit tests for YAML parsing
 
 ---
 
