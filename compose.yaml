@@ -1,0 +1,13 @@
+﻿services:
+  classicserver:
+    image: classicserver
+    build:
+      context: .
+      dockerfile: ClassicServer/Dockerfile
+
+  classicclient:
+    image: classicclient
+    build:
+      context: .
+      dockerfile: ClassicClient/Dockerfile
+
